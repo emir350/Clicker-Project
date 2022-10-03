@@ -1,0 +1,43 @@
+.video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .video {
+        width: auto;
+        height: 100%;
+    }
+}
+ 
+.power-level-num {
+    /*add flexbox style*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.producer-column {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+

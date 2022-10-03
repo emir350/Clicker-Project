@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clicker</title>
+    <script type="text/javascript" defer src="script.js"></script>
+</head>
+<body style="display: flex; flex-direction: row; justify-content: space-between;">
+    <div class="power-level-container">
+       
+       
+        <img style="width: 160px; height: 250px; display: flex; flex-direction: column;" src="realer.png" id="the-power-level">
+        
+        <label>Power Level: </label>
+
+        <p id="power-level-num"><strong>0</strong></p>
+
+       
+        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+            <label>Resources / second: </label>
+            <p id="passive-resources-generated-total">0</p>
+        </div>
+
+        <div id="bttn-container">
+            <button style="height:45px;width:65px" id="start-bttn">Start</button>
+            <button style="height:45px;width:65px" id="pause-bttn">Pause</button>
+        </div>
+    </div>
+
+    <div style="width: 50%" id="power-level-producers-container">
+        <div style="border: 3px solid black; display: flex; flex-direction: row; font-size: 150%;justify-content: space-between; width: 100%" id="goku-producer">
+            <img style="width: 18%; height: 18%" src="ssg.webp">
+            <p><b>Super Saiyan God</b><br><b>Cost of Transformation:</b> 20 Power Levels<br><b>Generates:</b> 1 PowerLevel/Second </p>
+            <button style="height:137px;width:300px" id="goku-bttn">Buy</button>
+        
+        </div>
+
+        
+                
+                <div style="width: 100%;" id="power-level-producers-container">  
+                <div style="border: 3px solid black; display: flex; flex-direction: row; font-size: 150%; justify-content: space-between; width: 100%;" id="ssb-producer">
+                <img style="width: 18%" src="real.ssb.jpg">
+                <p><b>Super Saiyan Blue</b><br><b>Cost of Transformation:</b> 500 Power Levels<br><b>Generates:</b> 6 Powerlevel/Second</p>
+                    <button style="height:137px;width:300px" id="goku-bttn2">Buy</button>
+                
+          
+            </div>
+
+
+                <div style="width: 100%" id="power-level-producers-container">
+                <div style="border: 3px solid black;display: flex; flex-direction: row; font-size: 150%; justify-content: space-between; width: 100%;" id="ui-producer">
+                <img style="width: 18%" src="uireal.jpg">
+                <p><b>Ultra Instinct</b><br><b>Cost of Transformation:</b> 20,000 Power Levels<br><b>Generates:</b> 100 Powerlevel/second</p>
+                <button style="height:137px;width:300px" id="goku-bttn3">Buy</button>
+
+            </div>
+        
+
+                <div style="width: 100%" id="power-level-producers-container">
+                <div style="border: 3px solid black;display: flex; flex-direction: row; font-size: 150%; justify-content: space-between; width: 100%" id="mui-producer">
+                <img style="width: 18%" src="muireal.png">
+                <p><b>Mastered Ultra Instinct</b><br><b>Cost of Transformation:</b> 1,000,000 Power Level<br><b>Generates:</b> 10,000 Powerlevel/second</p>
+                <button style="height:137px;width:300px" id="goku-bttn4">Buy</button> 
+                
+        </div>
+        
+
+</body>
+</html>
